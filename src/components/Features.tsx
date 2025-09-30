@@ -1,4 +1,4 @@
-import { Target, Zap, Map, Swords } from "lucide-react";
+import { Target, Zap, Map, Swords, Users, Shield } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const features = [
@@ -22,6 +22,16 @@ const features = [
     title: "Custom Map",
     description: "Fight across our carefully designed custom map built for intense encounters.",
   },
+  {
+    icon: Users,
+    title: "Great Community",
+    description: "Join hundreds of active players and make lasting friendships in our vibrant community.",
+  },
+  {
+    icon: Shield,
+    title: "Active Admins",
+    description: "Responsive admin team ensuring fair play and quick support whenever you need it.",
+  },
 ];
 
 const Features = () => {
@@ -37,7 +47,7 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
             <Card
               key={index}

@@ -22,14 +22,14 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto space-y-8">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-glow">
             <span className="bg-gradient-to-r from-primary via-primary-glow to-primary bg-clip-text text-transparent">
-              Old Recoil
+              Limit
             </span>
             <br />
-            <span className="text-foreground">Rust Server</span>
+            <span className="text-foreground">Old Recoil Server</span>
           </h1>
           
           <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Master the classic recoil patterns. Intense PVP combat with Aimtrain, 2x rates, and a custom map designed for hardcore players.
+            Master the classic recoil patterns. Intense PVP combat with Aimtrain, 2x rates, and a custom map. Join our thriving community.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">

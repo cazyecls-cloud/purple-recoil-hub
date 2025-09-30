@@ -22,8 +22,8 @@ const modifications = [
         description: "Balanced gather rates for faster progression without losing the survival feel.",
       },
       {
-        title: "2x Components",
-        description: "Get the components you need to craft and get into the action faster.",
+        title: "Optimized Loot Table",
+        description: "Carefully balanced loot pools for better gameplay flow and item progression.",
       },
     ],
   },

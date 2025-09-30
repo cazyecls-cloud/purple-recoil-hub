@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
+import limitLogo from "@/assets/limit-logo.png";
 
 const Navigation = () => {
   return (
@@ -7,9 +8,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <h2 className="text-xl font-bold text-glow bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-              Old Recoil
-            </h2>
+            <img src={limitLogo} alt="Limit Old Recoil" className="h-10 w-auto" />
           </div>
           
           <div className="flex items-center gap-4">
